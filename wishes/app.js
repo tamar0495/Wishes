@@ -15,8 +15,8 @@ const runPrompt = async (req,res) => {
     console.log("000000000",req.body);
     const userInput =req.body;
     const prompt =
-        `hi, please write me  a ${userInput.mood} ${userInput.wishType} for ${userInput.person}'s ${userInput.event},
-        return parsable JSON format '
+        `hi, please write me   a ${userInput.mood} ${userInput.wishType} for ${userInput.person}'s ${userInput.event},
+      
         `;
     console.log("prompt is:",prompt);
 
