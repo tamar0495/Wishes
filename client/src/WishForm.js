@@ -3,11 +3,11 @@ import './Design.css';
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
 const WishForm = ({ generateWish }) => {
-  const [mood, setMood] = useState('happy');
-  const [wishType, setWishType] = useState('poem');
-  const [recipientName, setRecipientName] = useState('tama');
-  const [eventType, setEventType] = useState('birthday');
-  const [additoinal, setAdditional] = useState('82');
+  const [mood, setMood] = useState('');
+  const [wishType, setWishType] = useState('');
+  const [recipientName, setRecipientName] = useState('');
+  const [eventType, setEventType] = useState('');
+  const [additoinal, setAdditional] = useState('');
 
   const handleGenerateWish = async () => {
      let data={
